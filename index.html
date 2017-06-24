@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JS calcuator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+        <button id="test" onClick='test2("1*5-sin-90+6/6/5+1")'> test </button>
+        <div id="panel" class="panel">
+            <div class="display"><p id="display">0</p></div>
+            <div id="keypanel" class="keyPad">
+            <button id="b7" class="buttons" onClick='append("b7")'>7</button>
+            <button id="b8" class="buttons" onClick='append("b8")'>8</button>
+            <button id="b9" class="buttons" onClick='append("b9")'>9</button>
+            <button id="divide" class="buttons" onClick='append("divide")'>/</button>
+            <button id="b4" class="buttons" onClick='append("b4")'>4</button>
+            <button id="b5" class="buttons" onClick='append("b5")'>5</button>
+            <button id="b6" class="buttons" onClick='append("b6")'>6</button>
+            <button id="multiply" class="buttons" onClick='append("multiply")'>*</button>
+            <button id="b1" class="buttons" onClick='append("b1")'>1</button>
+            <button id="b2" class="buttons" onClick='append("b2")'>2</button>
+            <button id="b3" class="buttons" onClick='append("b3")'>3</button>
+            <button id="plus" class="buttons" onClick='append("plus")'>+</button>
+            <button id="decimal" class="buttons" onClick='append("decimal")'>.</button>
+            <button id="b0" class="buttons" onClick='append("b0")'>0</button>
+            <button id="equal" class="buttons" onClick='calculate()'>=</button>
+            <button id="minus" class="buttons" onClick='append("minus")'>-</button>
+            <button id="clear" class="specialButtons" onClick='append("clear")'>Clear</button>
+            <button id="sin" class="specialButtons" onClick='append("sin")'>Sin</button>
+            <button id="cos" class="specialButtons" onClick='append("cos")'>cos</button>
+            <button id="tan" class="specialButtons" onClick='append("tan")'>tan</button>            
+            </div>
+            <div id="infoboard" class="infoBoard"> Info and Instructions
+                <ul>
+                    <li>To use the Trig buttons, use in the format of sin90 or sin-90, or -sin-90</li>
+                    <li>Once the calculate button is pressed, the default number will be kept.</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <script src="functions.js"></script>
+    </body>
+</html>
