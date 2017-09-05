@@ -31,7 +31,7 @@ and open the template in the editor.
     background: -moz-linear-gradient(top, #3e779d, #65a9d7);
     background: -ms-linear-gradient(top, #3e779d, #65a9d7);
     background: -o-linear-gradient(top, #3e779d, #65a9d7);
-    font-family: "Arial", cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:130%;
 }
 .buttons:hover,.specialButtons:hover {
@@ -68,7 +68,7 @@ and open the template in the editor.
 }
 p{
     text-align:right;
-    font-family: "Arial", cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:160%;
 }
 
@@ -82,7 +82,7 @@ p{
     background: -moz-linear-gradient(top, #3e779d, #65a9d7);
     background: -ms-linear-gradient(top, #3e779d, #65a9d7);
     background: -o-linear-gradient(top, #3e779d, #65a9d7);
-    font-family: "Arial", cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:130%;
 }
 .infoBoard{
