@@ -15,7 +15,7 @@ and open the template in the editor.
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
         <!--
-        <button id="test" onClick='test2("1*5-sin-90+6/6/5+1")'> test </button>
+        <button id="test" onClick='test2("*5-sin-90+6/6/5+1")'> test </button>
         -->
         <div id="panel" class="panel">
             <div class="display"><p id="display">0</p></div>
@@ -34,9 +34,9 @@ and open the template in the editor.
             <button id="plus" class="buttons" onClick='append("plus")'>+</button>
             <button id="decimal" class="buttons" onClick='append("decimal")'>.</button>
             <button id="b0" class="buttons" onClick='append("b0")'>0</button>
-            <button id="equal" class="buttons" onClick='calculate()'>=</button>
+            <button id="equal" class="buttons" onClick='make()'>=</button>
             <button id="minus" class="buttons" onClick='append("minus")'>-</button>
-            <button id="clear" class="specialButtons" onClick='append("clear")'>Clear</button>
+            <button id="clear" class="specialButtons" onClick='clearscr()'>Clear</button>
             <button id="sin" class="specialButtons" onClick='append("sin")'>Sin</button>
             <button id="cos" class="specialButtons" onClick='append("cos")'>cos</button>
             <button id="tan" class="specialButtons" onClick='append("tan")'>tan</button>            
